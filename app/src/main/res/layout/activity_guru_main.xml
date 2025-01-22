@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".GuruMainActivity">
+
+    <TextView
+        android:id="@+id/tvWelcomeGuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang, Guru!"
+        android:textAppearance="@style/TextAppearance.App.Body"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnProfil"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Profil"
+        android:layout_below="@id/tvWelcomeGuru"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/btnScanQR"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan QR Code"
+        android:layout_below="@id/btnProfil"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/btnLogoutGuru"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/btnScanQR"
+        android:layout_margin="16dp" />
+
+</RelativeLayout>

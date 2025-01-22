@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ProfilActivity">
+
+    <TextView
+        android:id="@+id/tvProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil Guru"
+        android:textAppearance="@style/TextAppearance.App.Body"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: "
+        android:textAppearance="@style/TextAppearance.App.Subtitle"
+        android:layout_below="@id/tvProfil"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/tvNoTelepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Telepon: "
+        android:textAppearance="@style/TextAppearance.App.Subtitle"
+        android:layout_below="@id/tvUsername"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/tvNoTelepon"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ScanQRCodeActivity">
+
+    <TextView
+        android:id="@+id/tvScanQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan QR Code"
+        android:textAppearance="@style/TextAppearance.App.Body"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:id="@+id/ivQRCodeImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/tvScanQR"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/cardBackgroundColor"
+        android:scaleType="fitCenter"/>
+
+    <Button
+        android:id="@+id/btnUploadImage"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload QR Code Image"
+        android:layout_below="@id/ivQRCodeImage"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:layout_below="@id/btnUploadImage"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

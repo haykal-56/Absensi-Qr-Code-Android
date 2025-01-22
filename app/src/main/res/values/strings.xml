@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplikasi Presensi</string>
+    <string name="welcome_message">Selamat datang di Aplikasi Presensi</string>
+    <string name="login">Masuk</string>
+    <string name="register">Registrasi</string>
+    <string name="scan_qr_code">Pemindaian QR Code</string>
+    <string name="profile">Profil</string>
+    <string name="qrcode_image">Gambar QR Code</string>
+    <string name="attendance">Presensi</string>
+    <string name="logout">Keluar</string>
+    <string name="name">Nama</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">Kirim</string>
+    <string name="success_message">Tindakan berhasil!</string>
+    <string name="error_message">Terjadi kesalahan. Silakan coba lagi.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#00796B</color>  <!-- Teal -->
+    <color name="colorPrimaryDark">#004D40</color> <!-- Dark Teal -->
+    <color name="colorAccent">#FFB300</color>  <!-- Amber -->
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White Background -->
+    <color name="cardBackgroundColor">#F5F5F5</color> <!-- Light Grey for Cards -->
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color> <!-- Black -->
+    <color name="textColorSecondary">#757575</color> <!-- Grey -->
+
+    <!-- Status Colors -->
+    <color name="successColor">#4CAF50</color> <!-- Green for Success -->
+    <color name="errorColor">#F44336</color> <!-- Red for Errors -->
+    <color name="warningColor">#FF9800</color> <!-- Orange for Warnings -->
+
+    <!-- Additional Colors -->
+    <color name="dividerColor">#BDBDBD</color> <!-- Divider Color -->
+</resources>
